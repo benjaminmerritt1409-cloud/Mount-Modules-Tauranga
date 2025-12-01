@@ -1,74 +1,65 @@
-<!-- HTML FILE (index.html) -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Mount Modules</title>
-<link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Mount Modules — Modern Modular Homes</title>
+<meta name="description" content="Mount Modules | Modern, customisable modular homes built in New Zealand. Fast delivery. Energy efficient." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<!-- Link to external stylesheet (below in the same file) -->
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="top-bar">
-<div class="logo">Mount Modules</div>
-<nav class="nav-links">
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="#">
+<img src="https://via.placeholder.com/48x48.png?text=MM" alt="Mount Modules logo" class="logo" />
+<span class="brand-text">Mount Modules</span>
+</a>
+
+
+<nav class="main-nav" id="main-nav">
 <a href="#about">About</a>
-<a href="#modules">Modules</a>
+<a href="#models">Models</a>
+<a href="#process">Process</a>
 <a href="#gallery">Gallery</a>
-<a href="#contact">Contact</a>
+<a href="#contact" class="cta">Enquire</a>
 </nav>
+
+
+<button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
 </header>
 
 
+<main>
 <section class="hero">
-<div class="hero-content">
-<h1>Modern Modular Living</h1>
-<p>Architecturally designed modular homes built for Aotearoa.</p>
-<a href="#modules" class="btn-primary">Explore Modules</a>
+<div class="container hero-inner">
+<div class="hero-copy">
+<h1>Smarter homes. Built your way.</h1>
+<p>Customisable modular homes engineered in New Zealand — fast build times, energy efficient, and built to last.</p>
+<div class="hero-actions">
+<a href="#models" class="btn btn-primary">View models</a>
+<a href="#contact" class="btn btn-outline">Get a quote</a>
 </div>
-</section>
-
-
-<section id="about" class="section fade-in">
-<h2>About Mount Modules</h2>
-<p>We design and deliver premium modular homes created to thrive in New Zealand’s diverse landscapes. Our mission is to make high-quality, sustainable housing accessible through smart design, precision engineering, and fast delivery.</p>
-</section>
-
-
-<section id="modules" class="section fade-in">
-<h2>Our Modules</h2>
-<div class="modules">
-<div class="card">
-<h3>Studio Module</h3>
-<p>Perfect for cabins, offices, or guest dwellings. Compact and efficient.</p>
-<a class="btn-secondary" href="#contact">Learn More</a>
 </div>
-<div class="card">
-<h3>1–2 Bedroom Module</h3>
-<p>Flexible layouts with premium insulation and open-plan living.</p>
-<a class="btn-secondary" href="#contact">Learn More</a>
-</div>
-<div class="card">
-<h3>Family Module</h3>
-<p>Spacious modular home with multi-room options and outdoor flow.</p>
-<a class="btn-secondary" href="#contact">Learn More</a>
+<div class="hero-media">
+<img src="https://via.placeholder.com/720x480.png?text=Modular+Home+Photo" alt="Modular home exterior"/>
 </div>
 </div>
 </section>
 
 
-<section id="gallery" class="section fade-in">
-<h2>Project Gallery</h2>
-<div class="gallery-grid">
-<div class="gallery-item"></div>
-<div class="gallery-item"></div>
-<div class="gallery-item"></div>
-<div class="gallery-item"></div>
-</div>
-</section>
-
-
-<section id="contact" class="section fade-in contact-section">
-<h2>Contact Us</h2>
-<form class="contact-form">
-<input type="text" placeholder="Your Name" required />
-</html>
+<section id="about" class="container about">
+<div class="about-grid">
+<div>
+<h2>Why Mount Modules?</h2>
+<p>We combine precision factory building with flexible design options so you can move in sooner — without compromising on quality. Our homes are energy efficient, transportable, and made with NZ conditions in mind.</p>
+<ul class="feature-list">
+.about-grid{grid-template-colu
